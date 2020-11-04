@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Textos, Colores, Bordes e Imágenes</title>
+        <meta charset="utf-8">
+        
+        <!--Necesario CSS-->
+         <link rel="stylesheet" type="text/css"      href="css/estilos.css" media="screen">
+        
+        <!--Para pillar el logo pequeño de la comida-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body class="bg-danger">
+        
+        <div class="container bg-light text-dark shadow-lg lead">
+     
+            <!--Navegacion-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand lead" href="./index.html"><i class="fas fa-utensils"> Foodie`s Paradise </i> </a>
+                
+                
+                
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav offset-4">
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link lead" href="./pagina_carta.html"><i class="fas fa-bars "> Nuestra carta</i></a>
+                  </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link lead " href="./ofertas.html"><i class="fas fa-euro-sign"> Ofertas</i></a>
+                  </li>
+                    <li class="nav-item active">
+                    <a class="nav-link lead" href="./pagina_localizacion.html"><i class="fas fa-map-marker-alt"> ¿Dónde estamos?</i> </a>
+                  </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link lead" href="./contacto.html"><i class="fas fa-envelope"> Contacto</i></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <header class="row mb-3">
+                <div class="col text-center p-5 mb-0">
+                    <h1 class="display-3  text-dark  "><i class="fas fa-utensils"> Foodie`s Paradise</i></h1>
+                </div>
+            </header>
+            
+            <div class="row mb-4">
+        		<div class="col-12 col-md-6 pl-4 pr-4 mb-3 mb-sm-0">
+                    <div class=" col border-bottom border-danger mb-3 text-center">  
+                            <buttom class="btn" onclick="metodo1()"><h3>Para empezar</h3></buttom>
+                    </div>
+                    
+	        		<ol id="listas_1" class="auxiliar2 auxiliar3 auxiliar4">
+						<li class="mb-1">
+						Baos con crujiente de langostino.
+						</li>
+						<li class="mb-1">
+						Sushi de pez mantequilla.
+						</li>
+						<li class="mb-1">
+						Patatas fritas al estilo belga.
+						</li>
+						<li class="mb-1">
+						Croquetas de cocido.
+						</li>
+						<li class="mb-1">
+						Tempura de corazones de alchafona.
+						</li>
+					</ol>
+                    
+				</div>
+                 
+				<div class="col-12 col-md-6 pl-4 pr-4 mb-3 mb-sm-0">
+                    <div class=" col border-bottom border-danger mb-3">
+                       <buttom class="btn" onclick="metodo2()"><h3>Para seguir </h3></buttom>
+                    </div>
+                    
+	        		<ol id="listas_2" class="auxiliar1 auxiliar3 auxiliar4">
+						<li class="mb-1">
+                            Hamburguesas <em>Meat Lovers</em>.
+						</li>
+						<li class="mb-1">
+						Pad thai con pollo de corral.
+						</li>
+						<li class="mb-1">
+						Arepa reina pepiada.
+						</li>
+                        <li class="mb-1">
+                        Tacos al pastor.
+						</li>
+						<li class="mb-1">
+						Tonkotsu ramen.
+						</li>
+						<li class="mb-1">
+						Costillar a la brasa con salsa chimichurri.
+						</li>
+					</ol>
+				</div>
+                
+                <div class="col-12 col-md-6 pl-4 pr-4 mb-3 mb-sm-0 ">
+                    <div class=" col border-bottom border-danger mb-3 ">
+                         <buttom class="btn" onclick="metodo3()"><h3>Un dulce final</h3></buttom>
+                    </div>
+					<ol id="listas_3" class="auxiliar1 auxiliar2 auxiliar4">
+						<li class="mb-1">
+						Brownie casero con cobertura de chocolate.
+						</li>
+						<li class="mb-1">
+						Tarta de la abuela al estilo tradicional.
+						</li>
+						<li class="mb-1">
+						Quesada ecológica.
+						</li>
+					</ol>
+				</div>
+                
+                <div class="col-12 col-md-6 pl-4 pr-4 mb-3 mb-sm-0">
+                    <div class=" col border-bottom border-danger mb-3">
+                        <buttom class="btn" onclick="metodo4()"><h3>Y de beber</h3></buttom>
+                    </div>
+					<ol id="listas_4" class="auxiliar1 auxiliar2 auxiliar3" >
+						<li class="mb-2">
+						Cervezas artesanas.
+						</li>
+						<li class="mb-2">
+						Vinos regionales
+						</li>
+						<li class="mb-2">
+						Refrescos.
+						</li>
+                        <li class="mb-2">
+						Cócteles caseros
+						</li>
+					</ol>
+				</div>    
+        	</div>
+            
+            
+            
+            <!--Footter-->
+            <footer class="row bg-dark text-white font-italic ">
+                <div class="col-12 col-md-6 p-3 text-center">
+                    Si te apasiona la comida<br> <strong>ven a visitarnos</strong>
+                </div>
+                <div class="col-12 col-md-6 p-3 text-center">
+                   ¿Quieres organizar un evento para grupos?<br>
+                    <strong>Contacta con nosotros</strong>
+                </div>
+            </footer>
+        </div>
+        
+        
+        <!--Necesario para que no de problemas-->
+     
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+       
+        
+        
+         <script type="application/javascript">
+             
+             function metodo1 () {
+                 
+                $('#listas_1').slideDown();
+                $('.auxiliar1').slideUp();
+            }
+              function metodo2 () {
+                $('#listas_2').css('display', 'block'); 
+                $('#listas_2').slideDown();
+                $('.auxiliar2').slideUp();    
+            }
+              function metodo3 () {
+                $('#listas_3').css('display', 'block');
+                $('#listas_3').slideDown();
+                $('.auxiliar3').slideUp();
+            }
+             function metodo4 () {
+                 $('#listas_4').css('display', 'block');
+                $('#listas_4').slideDown();
+                  $('.auxiliar4').slideUp();
+            }
+             
+             
+        
+        </script>
+    </body>
+</html>

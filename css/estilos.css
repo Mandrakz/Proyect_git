@@ -1,0 +1,32 @@
+/*Lo que se hace aqui es que a la etiqueta div le voy a aplicar unas ciertas caracteristicas jejej */
+div.relevante {
+    background-color: blueviolet;
+     padding: 50px;
+    
+}
+
+#listas_2 {
+  
+    display : none;
+    
+}
+#listas_3 {
+  
+    display : none;
+    
+}
+#listas_4 {
+  
+    display : none;
+    
+}
+
+
+
+
+
+
+
+
+
+

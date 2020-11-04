@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Textos, Colores, Bordes e Imágenes</title>
+        <meta charset="utf-8">
+        
+        <!--Para pillar el logo pequeño de la comida-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body class="bg-danger">
+        
+        <div class="container bg-light text-dark shadow-lg lead ">
+     
+            <!--Navegacion-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+              <a class="navbar-brand lead" href="./index.html"><i class="fas fa-utensils"> Foodie`s Paradise</i> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav offset-4">
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link lead" href="./pagina_carta.html"><i class="fas fa-bars "> Nuestra carta</i></a>
+                  </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link lead " href="./ofertas.html"><i class="fas fa-euro-sign"> Ofertas</i></a>
+                  </li>
+                    <li class="nav-item active">
+                    <a class="nav-link lead" href="./pagina_localizacion.html"><i class="fas fa-map-marker-alt"> ¿Dónde estamos?</i> </a>
+                  </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link lead" href="#"><i class="fas fa-envelope"> Contacto</i></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            
+            
+            <header class="row mb-4 text-center">
+                <div class="col pt-5 mb-1">
+                    <h5 class=" text-danger">¿Tienes alguna duda? Consúltanos.</h5>
+                </div>
+            </header>
+            
+           <div class="container p-5">
+            
+                <form action="#" method="post">
+
+                    <div class="row mb-3">
+                        <div class="form-group col-12 col-md-4">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre">
+                        </div>
+
+                        <div class="form-group col-12 col-md-8">
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" class="form-control" id="apellidos" name="apellidos">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-12 col-md-6">
+                            <label for="email">Email:</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="email" name="email">
+                            </div>
+                        </div>
+
+                        <div class="form-group col-12 col-md-6">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="text" class="form-control" id="telefono" name="telefono">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="form-group col-12">
+                        <label for="motivo">Motivo de la consulta:</label>
+                        <select class="form-control" id="motivo">
+                            <option>Realizar reserva</option>
+                            <option>Cancelar reserva</option>
+                            <option>Cambiar de hora la reserva</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="form-group col-12">
+                            <label for="consulta">Consulta:</label>
+                            <textarea class="form-control" id="consulta" rows="5"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-outline-primary mr-2">Enviar</button>
+                        </div>
+                    </div>
+
+                </form>
+            
+            </div>
+            
+            <!--Footter-->
+            <footer class="row bg-dark text-white font-italic">
+                <div class="col-12 col-md-6 p-2 mb-3 text-center">
+                    Si te apasiona la comida<br> <strong>ven a visitarnos</strong>
+                </div>
+                <div class="col-12 col-md-6 p-2 mb-3 text-center">
+                   ¿Quieres organizar un evento para grupos?<br>
+                    <strong>Contacta con nosotros</strong>
+                </div>
+            </footer>
+        </div>
+        
+        
+        <!--Necesario para que no de problemas-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
